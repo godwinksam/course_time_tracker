@@ -58,6 +58,10 @@ return [
 
     'asset_url' => env('ASSET_URL', null),
 
+    // http://localhost/course_time_tracker
+
+    // https://course-time-tracker-1.onrender.com
+
     /*
     |--------------------------------------------------------------------------
     | Application Timezone

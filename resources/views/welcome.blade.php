@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Course Hour Tracker</title>
-    <link href="/course_hour_tracker/public/css/app.css" rel="stylesheet">
+    <link href="{{ asset('js/app.js') }}" rel="stylesheet">
     <script>
         window.Laravel = {
             baseUrl: '{{ url("/") }}'
@@ -13,6 +13,6 @@
 </head>
 <body class="bg-gray-100 antialiased font-sans text-gray-900 leading-normal">
     <div id="app"></div>
-    <script src="/course_hour_tracker/public/js/app.js"></script>
+    <script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>
