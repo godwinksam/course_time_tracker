@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Course Hour Tracker</title>
-    <link href="{{ asset('js/app.js') }}" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <script>
         window.Laravel = {
             baseUrl: '{{ url("/") }}'
