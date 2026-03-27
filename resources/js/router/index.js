@@ -22,7 +22,7 @@ const routes = [
 ];
 
 const router = createRouter({
-    history: createWebHistory('/course_hour_tracker/'),
+    history: createWebHistory(import.meta.env.BASE_URL),
     routes
 });
 
